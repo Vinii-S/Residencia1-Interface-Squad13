@@ -11,6 +11,14 @@ import { RouterOutlet, RouterLink, RouterLinkActive } from '@angular/router';
 export class TestesComponent {}
 
 @Component({
+  selector: 'app-backends',
+  standalone: true,
+  templateUrl: './backend-component/backend-component.html',
+  styleUrl: './backend-component/backend-component.scss'
+})
+export class BackendComponent {}
+
+@Component({
   selector: 'app-root',
   standalone: true,
   imports: [RouterOutlet, RouterLinkActive, RouterLink],
