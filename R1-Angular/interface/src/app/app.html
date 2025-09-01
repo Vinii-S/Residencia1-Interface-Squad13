@@ -38,24 +38,24 @@
             <nav class="sidebar-nav">
                 <p class="nav-section-title">PRINCIPAL</p>
 <ul>
-    <li data-page-target="#page-dashboard"><a href="#"><span class="material-icons">dashboard</span><span class="nav-text">Dashboard</span></a></li>
+    <li routerLinkActive="active" class="active" data-page-target="#page-dashboard"><a [routerLink]="['/dashboard']"><span class="material-icons">dashboard</span><span class="nav-text">Dashboard</span></a></li>
     
     <li routerLinkActive="active" class="active" data-page-target="#page-backend"><a [routerLink]="['/backend']"><span class="material-icons">dns</span><span class="nav-text">Backends</span></a></li>
     
-    <li data-page-target="#page-apis"><a href="#"><span class="material-icons">api</span><span class="nav-text">APIs</span></a></li>
+    <li routerLinkActive="active" class="active" data-page-target="#page-apis"><a [routerLink]="['/apis']"><span class="material-icons">api</span><span class="nav-text">APIs</span></a></li>
     
-    <li data-page-target="#page-gateways"><a href="#"><span class="material-icons">router</span><span class="nav-text">Gateways</span></a></li>
+    <li routerLinkActive="active" class="active" data-page-target="#page-gateways"><a [routerLink]="['/gateways']"><span class="material-icons">router</span><span class="nav-text">Gateways</span></a></li>
     
     <li routerLinkActive="active" class="active" data-page-target="#page-tests"><a [routerLink]="['/testes']"><span class="material-icons">science</span><span class="nav-text">Testes</span></a></li>
     
-    <li data-page-target="#page-tags"><a href="#"><span class="material-icons">sell</span><span class="nav-text">Tags</span></a></li>
+    <li routerLinkActive="active" class="active" data-page-target="#page-tags"><a [routerLink]="['/tags']"><span class="material-icons">sell</span><span class="nav-text">Tags</span></a></li>
     
     <li routerLinkActive="active" class="active" data-page-target="#page-docs"><a [routerLink]="['/documentacao']"><span class="material-icons">description</span><span class="nav-text">Documentação</span></a></li>
 </ul>
 
 <p class="nav-section-title">GERENCIAMENTO</p>
 <ul>
-    <li data-page-target="#page-users"><a href="#"><span class="material-icons">group</span><span class="nav-text">Usuários</span></a></li>
+    <li routerLinkActive="active" class="active" data-page-target="#page-users"><a [routerLink]="['/usuarios']"><span class="material-icons">group</span><span class="nav-text">Usuários</span></a></li>
 
     <li routerLinkActive="active" class="active" data-page-target="#page-settings"><a [routerLink]="['/configuracao']"><span class="material-icons">settings</span><span class="nav-text">Configurações</span></a></li>
 </ul>
